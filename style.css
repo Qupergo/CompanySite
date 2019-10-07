@@ -1,0 +1,13 @@
+body {
+    background-color: #F1F1EF;
+}
+
+header {
+    background-color: #ffffff;
+}
+
+#logo {
+    border-radius: 5%;
+    width: 150px;
+    height: 150px;
+}
