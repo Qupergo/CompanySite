@@ -1,13 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap');
+
+
 body {
     background-color: #F1F1EF;
+    margin: 0px;
 }
 
 header {
     background-color: #ffffff;
 }
 
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 #logo {
-    border-radius: 5%;
     width: 150px;
     height: 150px;
+    cursor: pointer;
 }
+
+.btn {
+    color: #364F6B;
+    font-family: "Cabin Sketch";
+    margin-left: auto;
+    margin-right: 15%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background:#364F6B;
+    color:#fff;
+    border:none;
+    position:relative;
+    height:60px;
+    font-size:1.6em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+}
+
+.btn:hover{
+    background:#fff;
+    color:#364F6B;
+  }
+
+.btn:before,.btn:after{
+    content: '';
+    height: 0px;
+    right: 0;
+    position: absolute;
+    top: 0px;
+    width: 4px;
+    background: #364F6B;
+    transition: 400ms ease all;
+  }
+
+.btn:after{
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0px;
+  }
+
+.btn:hover:before,.btn:hover:after{
+    height: 100%;
+    transition: 800ms ease all;
+  }
