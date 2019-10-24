@@ -2,14 +2,14 @@
 
 
 body {
-    background-color: #F1F1EF;
+    background-color: #484848;
     margin: 0px;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 header {
-    background-color: #000000;
+    background-color:#333333;
+    margin: 20px;
+    border-radius: 20px;
 }
 
 nav {
@@ -24,15 +24,14 @@ nav {
     cursor: pointer;
 }
 
-.btn {
+button {
     color: #364F6B;
-    font-family: "Sans serif";
+    font-family: "sans serif";
     margin-left: auto;
     margin-right: 15%;
     margin-top: 1em;
     margin-bottom: 1em;
-    background:#000;
-    color:#fff;
+    background:#333333;
     border:none;
     position:relative;
     height:60px;
@@ -41,69 +40,109 @@ nav {
     cursor:pointer;
     transition:800ms ease all;
     outline:none;
-    overflow: visible;
 }
 
-.slide_btn:hover{
-    background:#000;
-    color:#fff;
-  }
+button:hover {
+	transform:scale(1.1,1.1);opacity:0.92;}
 
-.slide_btn:before,.slide_btn:after{
+button:active {
+  transform:scale(0.5,0.5);opacity:1;
+}
+
+.slide_btn:before,.slide_btn:after {
     content: '';
+    border-radius: 15px;
     height: 100%;
     right: 0; 
     position: absolute;
     top: 0px;
     width: 0px;
-    background: #364652;  
+    background: #FF425B;  
     transition: 400ms ease all;
-  }
+    
+}
 
-.slide_btn:after{
-    background: #364f6b;
+.slide_btn:after {
+    background: #00C0E1;
     right: inherit;
     top: inherit;
     left: 0;
     bottom: 0px;
-  }
-
-.slide_btn:hover:before,.slide_btn:hover:after{
-    width: 100%;
-    transition: 800ms ease all;
-  }
-
-.btn_text {
-  position: relative;
-  z-index: 99;
 }
 
-.nice_btn:hover{
-    background:#000;
-    color:#fff;
-  }
 
-.nice_btn:before,.nice_btn:after{
+
+.slide_btn:hover:before,.slide_btn:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+}
+
+.btn_text {
+  color:#000;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+}
+
+.nice_btn:before,.nice_btn:after {
+    border-radius: 15px;
     content: '';
     height: 0px;
     right: 0;
     position: absolute;
     top: 0px;
     width:  0px;
-    background: #364652;
+    background: #FF425B;
     transition: 400ms ease all;
   }
 
-.nice_btn:after{
-    background: #364f6b;
+.nice_btn:after {
+    background: #00C0E1;
     right: inherit;
     top: inherit;
     left: 0;
     bottom: 0px;
-  }
+}
 
-.nice_btn:hover:before,.nice_btn:hover:after{
+.nice_btn:hover:before,.nice_btn:hover:after {
     height: 100%;
     width: 100%;
     transition: 800ms ease all;
-  }
+}
+
+.flex_container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+.main {
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.slogan {
+  color: #FF425B;
+}
+
+.box {
+  border-radius: 15px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background: #333333;
+  padding: 20px;
+  margin: 5%;
+  transition: transform .3s ease;
+
+}
+
+.box:hover {
+  transform: scale(1.4, 1.4)
+}
