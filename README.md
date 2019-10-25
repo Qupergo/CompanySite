@@ -1,2 +1,2 @@
 # CompanySite
-A company website made fore web development class
+A company website made for web development class
