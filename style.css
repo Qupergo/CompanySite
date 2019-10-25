@@ -8,8 +8,8 @@ header {
   flex-direction: column;
 
   background-color:#333333;
-  margin:20px;
-  border-radius:20px;
+  margin:2vh;
+  border-radius:2vh;
   
 }
 
@@ -24,18 +24,18 @@ button {
   font-family:"sans serif";
   margin-left:15%;
   margin-right:15%;
-  margin-top:1em;
-  margin-bottom:1em;
+  margin-top:3vh;
+  margin-bottom:3vh;
   background:#333333;
   border:none;
   position:relative;
-  height:60px;
+  height:6vh;
   font-size:1.6em;
   padding:0 2em;
   cursor:pointer;
   transition:800ms ease all;
   outline:none;
-  border-radius: 15px;
+  border-radius: 1.5vh;
 }
 
 h2 {
@@ -43,8 +43,8 @@ h2 {
 }
 
 #logo {
-  width: 150px;
-  height: 150px;
+  width: 15vh;
+  height: 15vh;
   cursor: pointer;
 }
 
@@ -57,7 +57,7 @@ button:active {
 
 .slide_btn:before,.slide_btn:after {
   content: '';
-  border-radius: 15px;
+  border-radius: 1.5vh;
   height: 100%;
   right: 0; 
   position: absolute;
@@ -88,7 +88,7 @@ button:active {
 }
 
 .nice_btn:before,.nice_btn:after {
-  border-radius: 15px;
+  border-radius: 1.5vh;
   content: '';
   height: 0px;
   right: 0;
@@ -128,11 +128,11 @@ button:active {
 }
 
 .main {
-  border-radius: 15px;
+  border-radius: 1.5vh;
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 10px;
+  padding: 1vh;
   margin-left: 5%;
   margin-right: 5%;
 }

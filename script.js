@@ -38,7 +38,7 @@ function recognise_image () {
     let text = document.getElementById("recognise_text");
 
     if (image.length !== 0) {
-        let items = ["Cat", "Chair", "Person", "Plane", "Paper", "Monster", "Gaming system", "Phone", "Book", "Ship", "Dog"]
+        let items = ["Cat", "Chair", "Person", "Plane", "Paper", "Monster", "Satanic ritual", "Phone", "Book", "Ship", "Dog"]
         let item = items[Math.floor(Math.random()*items.length)];
 
         text.innerHTML = "It seems to be a " + item
