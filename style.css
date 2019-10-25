@@ -140,7 +140,10 @@ button:active {
   padding: 20px;
   margin: 5%;
   transition: transform .3s ease;
+}
 
+.crisp_click {
+  transition: transform .3s ease;
 }
 
 .box:hover {
