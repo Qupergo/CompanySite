@@ -139,6 +139,7 @@ button:active {
   background: #333333;
   padding: 20px;
   margin: 5%;
+  transition: transform .3s ease;
 }
 
 .crisp_click {
