@@ -38,8 +38,16 @@ button {
   border-radius: 1.5vh;
 }
 
+.btn_text {
+  color:#5e5e5e;
+  font-family: "impact";
+  position: relative;
+  z-index: 1;
+}
+
 h2 {
-  color: #57BBDE
+  color: #57BBDE;
+  font-family: "Century gothic";
 }
 
 #logo {
@@ -80,12 +88,7 @@ button:active {
     transition: 800ms ease all;
 }
 
-.btn_text {
-  color:#5e5e5e;
-  font-weight: bold;
-  position: relative;
-  z-index: 1;
-}
+
 
 .nice_btn:before,.nice_btn:after {
   border-radius: 1.5vh;
@@ -139,6 +142,7 @@ button:active {
 
 .slogan {
   color: #FF425B;
+  font-family: "Century gothic";
 }
 
 .box {
