@@ -6,7 +6,8 @@ body {
 header {
   display:flex;
   flex-direction: column;
-
+  align-items: center;
+  flex-wrap: wrap;
   background-color:#333333;
   margin:2vh;
   border-radius:2vh;
@@ -22,8 +23,8 @@ nav {
 button {
   color:#364F6B;
   font-family:"sans serif";
-  margin-left:15%;
-  margin-right:15%;
+  margin-left:30vh;
+  margin-right:30vh;
   margin-top:3vh;
   margin-bottom:3vh;
   background:#333333;
@@ -136,8 +137,8 @@ button:active {
   flex-direction: row;
   align-items: center;
   padding: 1vh;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 10vh;
+  margin-right: 10vh;
 }
 
 .slogan {
@@ -147,13 +148,13 @@ button:active {
 
 .box {
   color: #ebebeb;
-  border-radius: 15px;
+  border-radius: 1.5vh;
   display:flex;
   flex-direction: column;
   align-items: center;
   background: #333333;
-  padding: 20px;
-  margin: 5%;
+  padding: 2vh;
+  margin: 10vh;
 }
 
 
