@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
     <title>Recognise the things!</title>
 </head>
 <body>
@@ -15,5 +17,15 @@
             <button class="nice_btn"><span class="btn_text">About</span></button>
         </nav>
     </header>
+
+    <div class="flex_container_column">
+        <div class="box" id="show_here">
+            <input type="file" id="fileinput" />
+        </div>
+        <div class="box">
+            <button class="nice_btn" onclick="recognise_image()"><span class="btn_text">Click here to recognise image</span></button>
+            <p id="recognise_text"></p>
+        </div>
+    </div>
 </body>
 </html>
